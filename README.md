@@ -65,7 +65,6 @@ This table lists all the System calls `2` and Library calls `3` used in this pro
 | `write` | <pre>[man 2 write](https://man7.org/linux/man-pages/man2/write.2.html)</pre> | write() writes to a file descriptor. |
 
 ## Installation
-
 First, clone this repository to your local machine:
 
 ```
@@ -97,17 +96,20 @@ $ echo "ls -la" | ./hsh
 ```
 
 ## Example of Use
-Run the executable in your terminal after compiling:
+Interactive mode:
 ```
+$ ./hsh
 #(ಠ_ಠ)->$ ls
 AUTHORS              executors.c         hsh     main_loop.c         README.md     validators.c
 builtin_functions.c  helper_functions.c  main.h  man_1_simple_shell  tokenizers.c
 #(ಠ_ಠ)->$ pwd
 /root/githubRepos/holbertonschool-simple_shell
-#(ಠ_ಠ)->$
+#(ಠ_ಠ)->$ exit
+$
 ```
 
 ```
+$ ./hsh
 #(ಠ_ಠ)->$ ls -la
 total 72
 drwxr-xr-x  3 root root   232 Aug  7 23:01 .
@@ -124,7 +126,33 @@ drwxr-xr-x  8 root root   201 Aug  7 23:00 .git
 -rw-r--r--  1 root root    29 Aug  7 18:36 README.md
 -rw-r--r--  1 root root  2517 Aug  7 23:00 tokenizers.c
 -rw-r--r--  1 root root  1749 Aug  7 23:00 validators.c
-#(ಠ_ಠ)->$
+#(ಠ_ಠ)->$ exit
+$ 
+```
+Non-interactive mode:
+```
+$ echo "env" | ./hsh
+HOSTNAME=XecfXXXaXfXX
+LANGUAGE=en_US:en
+PWD=/root/githubRepos/holbertonschool-simple_shell
+TZ=America/Los_Angeles
+HOME=/root
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:
+tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:
+*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:
+*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:
+*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:
+*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:
+LESSCLOSE=/usr/bin/lesspipe %s %s
+TERM=xterm
+LESSOPEN=| /usr/bin/lesspipe %s
+SHLVL=0
+LC_ALL=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+OLDPWD=/root/githubRepos/holbertonschool-simple_shell-test
+_=./hsh
+$
 ```
 
 ## Authors
