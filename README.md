@@ -31,7 +31,7 @@ This table contains a brief description of the working files of the project, cli
 
 | File | Content | Description |
 | --- | --- | --- |
-| [main.h](main.h) | <pre>header of the project</pre> | <pre>Contain the structure, prototypes, macros and<br>external variable of the project.</pre> |
+| <pre>[main.h](main.h)</pre> | <pre>header of the project</pre> | <pre>Contain the structure, prototypes, macros and<br>external variable of the project.</pre> |
 | [main_loop.c](main_loop.c) | <pre>int main();</pre> | <pre>Main loop, recieve input from the Command Line Interface<br>parse and execute it.</pre> |
 | [tokenizers.c](tokenizers.c) | <pre>char **hsh_tokenizer();<br>char **tokenizer_path();</pre> | <pre>Split the input string into a array of tokens.<br>Split the environment variable PATH into an array of tokens.</pre> |
 | [validators.c](validators.c) | <pre>char *validate_input();<br>int validate_spaces();</pre> | <pre>Validate if PATH exists<br>Validate spaces, tabs and line breaks.</pre> |
