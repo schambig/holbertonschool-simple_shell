@@ -156,5 +156,11 @@ $
 ```
 
 ## Authors
-| [<img src="https://avatars.githubusercontent.com/u/98305125?v=4" width=115><br><sub> Johana Herrera </sub>](https://github.com/Johana-RHP) | [<img src="https://avatars.githubusercontent.com/u/103861356?v=4" width=115><br><sub> Drixner Condor </sub>](https://github.com/Drixner) | [<img src="https://avatars.githubusercontent.com/u/98289735?v=4" width=115><br><sub> Salomón Chambi </sub>](https://github.com/schambig) |
+| [<img src="https://avatars.githubusercontent.com/u/98305125?v=4" width=85><br><sub> Johana Herrera </sub>](https://github.com/Johana-RHP) | [<img src="https://avatars.githubusercontent.com/u/103861356?v=4" width=85><br><sub> Drixner Condor </sub>](https://github.com/Drixner) | [<img src="https://avatars.githubusercontent.com/u/98289735?v=4" width=85><br><sub> Salomón Chambi </sub>](https://github.com/schambig) |
 | :---: | :---: | :---: |
+
+[Back to top](#simple-shell)<!--@schambig-->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
+</p>
