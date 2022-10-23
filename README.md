@@ -11,6 +11,7 @@
 - [System and Library calls](#system-and-library-calls)
 - [Installation](#installation)
 - [Example of Use](#example-of-use)
+- [Contributing](#contributing)
 - [Authors](#authors)
 
 ## Description
@@ -154,6 +155,8 @@ OLDPWD=/root/githubRepos/holbertonschool-simple_shell-test
 _=./hsh
 $
 ```
+
+## Contributing
 
 ## Authors
 | [<img src="https://avatars.githubusercontent.com/u/98289735?v=4" width=85><br><sub> Salomón Chambi </sub>](https://github.com/schambig) | [<img src="https://avatars.githubusercontent.com/u/103861356?v=4" width=85><br><sub> Drixner Condor </sub>](https://github.com/Drixner) | [<img src="https://avatars.githubusercontent.com/u/98305125?v=4" width=85><br><sub> Johana Herrera </sub>](https://github.com/Johana-RHP) |
